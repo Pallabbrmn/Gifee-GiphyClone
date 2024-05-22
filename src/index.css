@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .gradient {
+    @apply bg-gradient-to-r from-purple-600 to-orange-500;
+  }
+}
